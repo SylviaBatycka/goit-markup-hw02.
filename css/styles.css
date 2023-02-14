@@ -1,0 +1,44 @@
+:root {
+    --color-pink: rgb(242, 9, 242);
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0); 
+    --color-green: rgb(103, 151, 112);
+    --color-red: rgb(249, 2, 2);
+    --color-babyblue: rgb(2, 245, 245);
+    --color-darkblue: rgb(38, 2, 245);
+   }
+   
+  body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--color-black);
+  }
+  
+  
+  .h2 {
+    font-size: 1rem;
+    line-height: 2;
+  }
+  .link {
+    text-decoration: none;
+    color: var(--color-black);
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: var(--color-babyblue);
+    text-decoration: underline;
+    text-decoration-color: var(--color-darkblue);
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+ 
+  .button:hover,
+  .button:focus {
+    color: var(--color-babyblue);
+    text-decoration: underline;
+    text-decoration-color: var(--color-darkblue);
+  }
