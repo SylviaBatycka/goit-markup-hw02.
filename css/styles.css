@@ -6,6 +6,7 @@
     --color-red: rgb(249, 2, 2);
     --color-babyblue: rgb(2, 245, 245);
     --color-darkblue: rgb(38, 2, 245);
+    --color-brandcolor: rgb(33,150,243);
    }
    
   body {
@@ -27,9 +28,7 @@
   
   .link:hover,
   .link:focus {
-    color: var(--color-babyblue);
-    text-decoration: underline;
-    text-decoration-color: var(--color-darkblue);
+    color: var(--color-brandcolor);
   }
   
   .list {
@@ -38,7 +37,5 @@
  
   .button:hover,
   .button:focus {
-    color: var(--color-babyblue);
-    text-decoration: underline;
-    text-decoration-color: var(--color-darkblue);
+    color: var(--color-brandcolor);
   }
