@@ -32,7 +32,7 @@
     text-decoration-color: var(--color-darkblue);
   }
   
-  ul{
+  .list {
     list-style-type: none;
   }
  
