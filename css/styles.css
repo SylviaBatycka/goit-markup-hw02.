@@ -23,6 +23,7 @@ color: var(--color-brandgrey);
   .h1 {
   font-size: 44px;
   line-height: 60px;
+  text-transform: capitalize;
 
   }
   
