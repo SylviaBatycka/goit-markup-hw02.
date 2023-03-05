@@ -12,7 +12,7 @@
   }
   
   .p {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -21,6 +21,7 @@ color: var(--color-brandgrey);
   }
 
   .h1 {
+  font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-transform: capitalize;
@@ -29,7 +30,7 @@ color: var(--color-brandgrey);
   
   .h2 {
   font-weight: 700;
-   font-size: 36px;
+  font-size: 36px;
   line-height: 42.19px;
   }
   .link {
