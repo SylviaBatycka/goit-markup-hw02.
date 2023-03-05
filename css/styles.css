@@ -1,19 +1,14 @@
 :root {
-    --color-pink: rgb(242, 9, 242);
-    --color-white: rgb(255, 255, 255);
-    --color-black: rgb(0, 0, 0); 
-    --color-green: rgb(103, 151, 112);
-    --color-red: rgb(249, 2, 2);
-    --color-babyblue: rgb(2, 245, 245);
-    --color-darkblue: rgb(38, 2, 245);
-    --color-brandcolor: rgb(33,150,243);
+    --color-brandblack: rgb(33,33,33); 
+    --color-brandblue: rgb(33,150,243);
+    --color-brandgrey: rgb(75,75,75);
    }
    
   body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.2;
-    color: var(--color-black);
+    color: var(--color-brandblack);
   }
   
   
@@ -23,12 +18,12 @@
   }
   .link {
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-brandblack);
   }
   
   .link:hover,
   .link:focus {
-    color: var(--color-brandcolor);
+    color: var(--color-brandblue);
   }
   
   .list {
@@ -37,7 +32,7 @@
  
   .button:hover,
   .button:focus {
-    color: var(--color-brandcolor);
+    color: var(--color-brandblue);
   }
 
   .logo {
