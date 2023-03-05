@@ -52,8 +52,9 @@ color: var(--color-brandgrey);
 
   .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 400;
     font-size: 26px;
-    background: linear-gradient(to right, #1c87c9 50%, #8ebf42 50%);
+    background: linear-gradient(to right, var(--color-brandblue) 40%, var(--color-brandblack) 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
