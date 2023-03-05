@@ -42,4 +42,5 @@
 
   .logo {
     font-family: "Raleway", sans-serif;
+    color:  linear-gradient(to right, #1c87c9 50%, #8ebf42 50%);
   }
