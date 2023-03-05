@@ -19,10 +19,17 @@ font-size: 16px;
 line-height: 30px;
 color: var(--color-brandgrey);
   }
+
+  .h1 {
+  font-size: 44px;
+  line-height: 60px;
+
+  }
   
   .h2 {
-    font-size: 1rem;
-    line-height: 2;
+  font-weight: 700;
+   font-size: 36px;
+  line-height: 42.19px;
   }
   .link {
     text-decoration: none;
@@ -45,6 +52,9 @@ color: var(--color-brandgrey);
 
   .logo {
     font-family: "Raleway", sans-serif;
-    /*color:  linear-gradient(to right, #1c87c9 50%, #8ebf42 50%);*/
-    color: linear-gradient(to right, var(--color-brandblue) 30%; var(--color-brandblack) 70%);
+    font-size: 26px;
+    background: linear-gradient(to right, #1c87c9 50%, #8ebf42 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
