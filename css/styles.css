@@ -60,7 +60,7 @@ color: var(--color-brandgrey);
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 26px;
-    background: linear-gradient(to right, var(--color-brandblue) 33%, var(--color-brandblack) 67%);
+    background: linear-gradient(to right, var(--color-brandblue) 30%, var(--color-brandblack) 70%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
