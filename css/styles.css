@@ -10,7 +10,7 @@
    }
    
   body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     line-height: 1.2;
     color: var(--color-black);
@@ -38,4 +38,8 @@
   .button:hover,
   .button:focus {
     color: var(--color-brandcolor);
+  }
+
+  .logo {
+    font-family: "Raleway", sans-serif;
   }
