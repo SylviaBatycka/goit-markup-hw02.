@@ -11,6 +11,14 @@
     color: var(--color-brandblack);
   }
   
+  .p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: var(--color-brandgrey);
+  }
   
   .h2 {
     font-size: 1rem;
@@ -38,5 +46,5 @@
   .logo {
     font-family: "Raleway", sans-serif;
     /*color:  linear-gradient(to right, #1c87c9 50%, #8ebf42 50%);*/
-    color: darkorchid;
+    color: var(--color-brandblue);
   }
